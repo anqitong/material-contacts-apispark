@@ -1,8 +1,9 @@
-package net.apispark.webapi.representation;
+package net.apispark.webapi;
 
 import static org.junit.Assert.*;
 
 import junit.framework.Assert;
+import net.apispark.webapi.representation.Contact;
 
 public class Test {
 
