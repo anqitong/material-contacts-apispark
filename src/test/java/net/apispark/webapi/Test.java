@@ -12,5 +12,10 @@ public class Test {
 		Contact c = new Contact("123", "firstname", "lastname", "avatar");
 		Assert.assertEquals(true, c.getAvatar().equals("avatar"));
 	}
+	
+	public void testFail() {
+		Contact c = new Contact("123", "firstname", "lastname", "avatar");
+		Assert.assertEquals(false, c.getAvatar().equals("avatars"));
+	}
 
 }
